@@ -1,9 +1,6 @@
 # Invidam.github.io
-Web site
-내일 해야할 것들
-1. 깃헙 ㄱ름 연동
-https://wepplication.github.io/programming/github-pages/
+Web site 공부를 위한 Repo.
 
-이용해서 하기.
+https://opentutorials.org/course/3084 
 
-2. 알고풀기
+부터 천천히 복습 + 공부하기.
