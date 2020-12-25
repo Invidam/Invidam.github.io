@@ -184,30 +184,66 @@
 	<br> Apache web server가 초록색이어야 켜진 것.
 	
 	
+	<h4>
+		웹서버와 HTTP
+	</h4>
+	<br>내 컴퓨터가 Web Browser, Web Server역할을 동시에 함.
+	<br>127.0.0.1/index.html : index.html 파일을 화면에 출력
+	<br>htdocs(hypertext documents)에 있는 index 파일.
+	<br>여기에 작업한 파일들을 업로드 해줘야함.
+	<br><br> 127.0.0.1(Ip Address) : 웹브라우저가 설치된 컴퓨터를 나타내는 주소
+	<br> 파일로 연것 VS 브라우저를 연 것 : 경로가 다르다.
+	<br> 파일로 열기 (file://) : Web Browser -> index.html
+	<br> 주소로 열기 (http:// &lt;-- Wb와 Ws의 통신규약인 hypertext transfer protocol을 이용한다는 의미) : Web Browser -> Web server  index.html -> Web Browser.
+	<br> : 다른 컴퓨터로 Wb와 Ws가 분리되어도 사용이 가능
+	
 	<h3>
-		
+		WS와 WB와의 통신 [.md파일을 옮김.]
+		<h4><a id="user-content-ws와-wb와의-통신" class="anchor" aria-hidden="true" href="#ws와-wb와의-통신"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>WS와 WB와의 통신</h4>
+<table>
+<thead>
+<tr>
+<th>Web Browser</th>
+<th>&lt;--&gt;</th>
+<th>Web Server</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>127.0.0.1(자기자신의 주소)</td>
+<td></td>
+<td>192.168.0.13(WS의 주소)</td>
+</tr>
+<tr>
+<td>1.WS의 주소/index.html을 요청</td>
+<td>-&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>2.index.html을 읽음</td>
+</tr>
+<tr>
+<td>&lt;-</td>
+<td>3. 전송</td>
+<td>&lt;-</td>
+</tr>
+<tr>
+<td>4. 해석하여 화면에 출력</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 	</h3>
-	
-	
 	<h3>
-		
+		수업을 마치며.
 	</h3>
+	<h4>
+		<br>1. 배웠던 것들을 복습하기 위해 배운 내용을 웹사이트에 기록하자. (완료)
+		<br>2. 웹을 아름답게 하기 위해서는? css
+		<br>3. 사용자와의 상호작용을 위해서는? JavaScript
+		<br>4. 백엔드를 위해서는? PHP, node.js, JSP Express 등.
+	</h4>
 	
-	
-	I Learn Hypertest Markup Language (HTML).
-	It is <strong>important Language. </strong>
-	<p>
-
-	<u><a target="_blank" title="html5 specification" href = "https://www.w3.org/TR/html52/interactive-elements.html#using-the-a-element-to-define-a-command">Hypertext Markup Language (HTML) </a></u>is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.	
-	</p>
-
-		<img src="coding_img.jpg" width= "30%">
-
-	<p style="margin-top:45px;">
-
-	Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.<br><br><br>
-	</p>
-
-	HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.<br>
-</body>
-</html>
