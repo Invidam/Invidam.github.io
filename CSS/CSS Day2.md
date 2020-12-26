@@ -5,14 +5,15 @@
 
 ## 혁명적 변화
 
-+ Style 속성[HTML] : style="color:red"  
++ 인라인 at Style 속성[HTML] : style="color:red"  
 	+ [CSS]`<style> a {} </style>` : 선택자{seloector} 
 	+ a : 선언{declaration}
 	
 
 
-+ In style {text-decoration : none or underline;}
-	+ ![css 용어 정리](https://user-images.githubusercontent.com/71889359/103147519-6c735c00-4799-11eb-85e9-22a664d1d7d1.png)
++ : In style {text-decoration : none or underline;}
+
++ 이미지: ![css 용어 정리](https://user-images.githubusercontent.com/71889359/103147519-6c735c00-4799-11eb-85e9-22a664d1d7d1.png)
 
 - - -
 
@@ -24,16 +25,28 @@
 
 
 
-font-size :60px;
+		font-size :60px;
 
 
 
-text-align : center;
+		text-align : center;
 
 
 
-}
+		}
 
 + Property로 검색할 방법만 알면 1분안에 찾을 수 있다 = 거의 아는 것이나 다름 없다.
 	+ CSS {찾고자 하는 기능} property 검색
 	
+
+## CSS 선택자 스스로 알아내기
++ 기본 = 검정
++ 방문했던 것들 = 회색
++ 방문 = 빨강
+
++ 기존에는 인라인을 했어야 했다.
+	+  <a class = "saw"> 
+	+  .saw
+{
+	color:gray;
+}
