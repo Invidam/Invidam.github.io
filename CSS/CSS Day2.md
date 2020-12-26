@@ -45,8 +45,13 @@
 + 방문 = 빨강
 
 + 기존에는 인라인을 했어야 했다.
-	+  <a class = "saw"> 
-	+  .saw
-{
-	color:gray;
-}
+	+  <a class = "saw"> 1.html
+		+  .saw{ color:gray;}
+	
+	*  <a class = "saw active"> 2.html 
+		*  .active{ color:gray; }
+		* active가 나중에 등장-> 나중에 적용됨.
+	
+	- <a class = "saw" id = "active"> 2.html
+		- #active{ color:gray; }
+		+ id > class > tag.		
