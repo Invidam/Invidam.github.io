@@ -55,3 +55,4 @@
 	- <a class = "saw" id = "active"> 2.html
 		- #active{ color:gray; }
 		+ id > class > tag.		
+ 		+ 특수한 것일수록 우선순위를 높게 설정
