@@ -12,6 +12,7 @@
 
 
 + In style {text-decoration : none or underline;}
+<<<<<<< HEAD
 	+ ![css 용어 정리](https://user-images.githubusercontent.com/71889359/103147519-6c735c00-4799-11eb-85e9-22a664d1d7d1.png)
 
 - - -
@@ -23,4 +24,9 @@
 	+ `h1 {
 	font-size :60px;
 	}`
+=======
+	+ <img src="css.png" width= "10%">
+	+ ![css 용어 정리](https://user-images.githubusercontent.com/71889359/103147519-6c735c00-4799-11eb-85e9-22a664d1d7d1.png)
+
+- - -
 	
