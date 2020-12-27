@@ -101,21 +101,18 @@ w
 	+  grid를 없앤다. <pre><code>
 		#grid 
 		{
-		
 		    	display : block;
 		}		
 		</code></pre>
 	+ 세로 테두리를 없앤다. <pre><code>
 		ol 
 		{
-		
 			    border-right:none;
 		}
 		</code></pre>
 	+ 가로 테두리를 없앤다. <pre><code>
 		ol 
 		{
-		
 		    	border-right:none;
 		}
 		</code></pre>
