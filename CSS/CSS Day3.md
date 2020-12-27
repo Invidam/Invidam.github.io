@@ -108,8 +108,7 @@ w
 		{
 			display : block;
 		}				
-</code></pre>
-	
+		</code></pre>
 	+ 세로 테두리를 없앤다. <pre><code></code></pre>
 		ol 
 		{
@@ -120,7 +119,3 @@ w
 		{
 			border-right:none;
 		}
-
-	+ <pre><code></code></pre>
-	+ <pre><code></code></pre>
-	+ <pre><code></code></pre>
