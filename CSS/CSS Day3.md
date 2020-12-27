@@ -103,12 +103,7 @@ w
 		{
 		
 		    	display : block;
-		}
-		ol 
-		{
-		
-			    display : block;
-		}				
+		}		
 		</code></pre>
 	+ 세로 테두리를 없앤다. <pre><code>
 		ol 
