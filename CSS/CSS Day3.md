@@ -98,7 +98,6 @@ w
 
 
 + 화면이 800보다 작으면 @media(max-width:800px)
-	+ <pre><code></code></pre>
 	+  grid를 없앤다. <pre><code>
 		#grid 
 		{
