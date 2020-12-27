@@ -108,13 +108,15 @@ w
 			display : block;
 		}				
 		</code></pre>
-	+ 세로 테두리를 없앤다. <pre><code></code></pre>
+	+ 세로 테두리를 없앤다. <pre><code>
 		ol 
 		{
 			border-right:none;
 		}
-	+ 가로 테두리를 없앤다. <pre><code></code></pre>
+		</code></pre>
+	+ 가로 테두리를 없앤다. <pre><code>
 		ol 
 		{
 			border-right:none;
 		}
+		</code></pre>
