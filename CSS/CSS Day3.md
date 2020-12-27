@@ -98,17 +98,20 @@ w
 
 
 + 화면이 800보다 작으면 @media(max-width:800px)
-	+  grid를 없앤다. <pre><code>
+	+  grid를 없앤다. 
+		<pre><code>
 		#grid {
 			display : block;
 		}		
 		</code></pre>
-	+ 세로 테두리를 없앤다. <pre><code>
+	+ 세로 테두리를 없앤다.
+		<pre><code>
 		ol {
 			border-right:none;
 		}
 		</code></pre>
-	+ 가로 테두리를 없앤다. <pre><code>
+	+ 가로 테두리를 없앤다.
+		<pre><code>
 		h1 {
 			border-right:none;
 		}
