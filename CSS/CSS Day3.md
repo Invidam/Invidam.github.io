@@ -92,4 +92,35 @@ w
 + font-size[property]
 
 
+- - -
 
+## 미디어 쿼리 써먹기
+
+
++ 화면이 800보다 작으면 @media(max-width:800px)
+	+ <pre><code></code></pre>
+	+  grid를 없앤다. <pre><code>
+		#grid 
+		{
+			display : block;
+		}
+		ol 
+		{
+			display : block;
+		}				
+</code></pre>
+	
+	+ 세로 테두리를 없앤다. <pre><code></code></pre>
+		ol 
+		{
+			border-right:none;
+		}
+	+ 가로 테두리를 없앤다. <pre><code></code></pre>
+		ol 
+		{
+			border-right:none;
+		}
+
+	+ <pre><code></code></pre>
+	+ <pre><code></code></pre>
+	+ <pre><code></code></pre>
