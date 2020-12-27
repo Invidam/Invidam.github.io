@@ -97,7 +97,7 @@ w
 ## 미디어 쿼리 써먹기
 
 
-+ 화면이 800보다 작으면 @media(max-width:800px)
++ 화면이 800보다 작으면 @media(max-width:800px) {} 안에서.
 	+  grid를 없앤다. 
 		<pre><code>
 		#grid {
