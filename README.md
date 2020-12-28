@@ -11,7 +11,7 @@ Web site 공부를 위한 Repo.
 		+ 깃헙 주소
 	+ https://invidam.github.io/
 		+ 웹사이트 주소
- 	+ https://opentutorials.org/course/3084/18403
+ 	+ https://opentutorials.org/course/3086/18323
 		+ 강의 영상 현재 진도
  	+ https://yah.ac/yahac3
 		+ 진도표 출첵
