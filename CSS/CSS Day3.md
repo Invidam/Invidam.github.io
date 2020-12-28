@@ -86,7 +86,7 @@ w
 	 } 
 	</code> </pre>
 	+ media : media query를 의미
-	+ min(or max) : 최소 혹은 최대 화면이 n일 때 작동
+	+ min(or max) : 최소 혹은 최대 화면이 n일 때까지 작동
 
 
 + font-size[property]
@@ -96,8 +96,7 @@ w
 
 ## 미디어 쿼리 써먹기
 
-# max랑 min이랑 차이 그리고 화면 적용이 안되는듯
-+ 화면이 800보다 작으면 @media(max-width:800px) {} 안에서.
++ 화면이 800px까지 일 때 @media(max-width:800px) {} 안을 실행시키는데, 안쪽은 다음 기능들로 이루어져 있다.
 	+  grid를 없앤다. 
 		<pre><code>
 		#grid {
