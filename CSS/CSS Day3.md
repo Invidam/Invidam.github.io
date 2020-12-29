@@ -76,7 +76,7 @@ w
 	+ 화면의 크기에 따라 반응하여 동작하는 디자인
 
 + ```screen width > 800 px  div{display:none;}```
-+  <pre>	<code>
++  <pre><code>
 	@media(min-width:800px) 
 	{     
 		div { 
@@ -84,7 +84,7 @@ w
 		 }
 
 	 } 
-	</code> </pre>
+	</code></pre>
 	+ media : media query를 의미
 	+ min(or max) : 최소 혹은 최대 화면이 n일 때까지 작동
 

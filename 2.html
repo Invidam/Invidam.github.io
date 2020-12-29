@@ -170,47 +170,71 @@
 			8. 가장 바깥쪽의 여백이 많아 body태그의 margin을 0으로 한다. <br><br>
 			
 			<h3>
-				
+				9. 그리드
 			</h3>
+			<h4>
+				#의미는 없지만, 디자인 용도(id나 class)를 위해 써먹는 태그
+			</h4>
+			1. &lt;div> &lt;/div> : Block level elemnet. <br><br>
+			2. &lt;span> &lt;/span> : Inline elemenet. <br><br>
+			
+			div에 id를 준 후, style에서 {display : grid; grid-template-columns : 150px 1fr} : display를 grid로 바꾼다. 두 영역의 크기는 각각 150px과 1fr이다. <br> 1fr : 남은 자유 공간의 1/(총fr 지금 경우는 1) 
+			<h4>
+				<a href = "https://caniuse.com/" target = "_blank" title = "https://caniuse.com/ 바로 가기">https://caniuse.com/</a> : css, jsp, html 기술 중 얼마나 쓰고 있는지, 어떠한 웹브라우저에서 쓸 수 잇는 지 통계를 보여줌.
+			</h4>
 			<h3>
-				
+				10. 그리드 써먹기
 			</h3>
+			<h4>
+				#구현하고자하는 페이지를 위해서
+			</h4>
+			<h5>
+			1. 리스트와 본문을 그리드로 묶는다.
+			</h5>
+			+ 본문 h2와 p를 div(article)로 묶고 이를 다시 리스트와 div(grid)로 묶는다. <br><br>
+			#grid {dislpay :grid; grid-template-columns : 150px 1fr;} <br><br>
+			+ 리스트의 여백이 너무 커 padding left를 조정한다. (검사를 통해 마우스를 갖다대고 키보드 상하키로 미리 조정해보기가 가능)
+			<h5>
+				ol seloectotr은 다른 곳에서도 쓸 수 있으니 style에서 ol이 아닌 #grid ol로 바꾸어 준다 (id로 grid를 가진 ol)
+			</h5>
 			<h3>
-				
+				11. 반응형 디자인
 			</h3>
+			웹은 모든 시스템에서 사용하기에 수많은 화면에서 동작해야만 했다.
+			따라서 여러 화면에 대응되는 웹을 만들기 위해 디자인되었다. 
+			<br> => 화면의 크기에 따라 반응하여 동작하는 디자인
+			<h4>
+				screen width > 800px이면, div{display :none;}으로 바꾼다
+				<br> @media(min-width: 800px)<br>
+				{<br>
+					div {dislpay : none;} <br>
+				}
+			</h4>
+			+ media : media query를 의미 <br><br>
+			+ min(or max) : 최소 혹은 최대 화면이 n일 때 까지 이 안의 코드가 작동한다.
 			<h3>
-				
+				12. 미디어 쿼리 써먹기
 			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
-			<h3>
-				
-			</h3>
+			<h4>
+				#화면이 800px이하일 때 작동시켜야할 기능들이 있다.
+			</h4>
+			<h5>
+				grid를 없앤다.
+			</h5>
+			<h6>
+				#grid {display : block; } : grid -> block
+			</h6>
+			<h5>
+				세로 테두리를 없앤다.
+			</h5>
+			<h6>
+				ol {border-right:none;} 
+			</h6>
+				가로 테두리를 없앤다.
+			</h5>
+			<h6>
+				h1 {border-right:none;} 
+			</h6>
 		</div>
 	</div>
 </body>
