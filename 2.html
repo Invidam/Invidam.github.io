@@ -65,9 +65,9 @@ nd 가독성이 뛰어남
 				4. 혁명적 변화
 			</h3>
 			<h4>
-				# HTML 태그를 이용하여 색깔을 바꾸기
+				# HTML 태그를 이용하여 색깔을 바꾸기 [인라인]
 			</h4>
-			style 속성 : {style= "color = red"} <br>
+			style 속성 : &lt;a style= "color = red"> <br>
 			
 			<h4>
 				#CSS를 이용하여 색깔을 바꾸기
@@ -95,8 +95,36 @@ nd 가독성이 뛰어남
 			</h4>
 			{text-align : center; } : 중앙정렬
 			<h3>
-				
+				6. CSS 선택자 스스로 알아내기
 			</h3>
+			<h4>
+				#하고자 하는 것들
+			</h4>
+			0. 리스트에서, <br>
+			1. 기본 : 검정 <br>
+			2. 방문했던 것들 : 회색 <br>
+			3. 방문 중 : 빨강 <br>
+			<h4>
+				#기존에는 일일이 인라인을 했어야 했지만, CSS에서는 class와 id를 이용하여 편리하게 해결할 수 있다.
+			</h4>
+			<h5>
+				&lt; a class = "saw"> 1.html <br>
+				-> .saw{color : gray;}
+			</h5>
+			<h5>
+				&lt; a class = "saw active"> 2.html <br>
+				.active { color:gray;} <br>
+				active가 나중에 등장 -> 나중에 적용된다. -> 우선순위가 높다.
+				
+			</h5>
+			<h5>
+				&lt; a class = "saw" id = "active"> 2.html
+			</h5>
+				#active {color : gray;} <br>
+				id > class >tag 순으로 우선순위가 높다 (특수한 것들이 높음.) 
+			<h4>
+				#박스 모델
+			</h4>
 			<h3>
 				
 			</h3>
