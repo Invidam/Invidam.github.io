@@ -4,11 +4,15 @@ a
 	text-decoration : none;
 }
 h1 {
-	font-size:45px;
+	font-size:60px;
 	text-align : center;
 	border-bottom:1px solid gray;
 	margin:0;
 	padding:20px;
+	padding-bottom : 72px;
+}
+h2 {
+	font-size : 50px;
 }
 #grid ol {
 	border-right: 1px solid gray;
