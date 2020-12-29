@@ -39,7 +39,7 @@
 			
 			+코딩을 잘하는 방법 : 중복의 제거
 			<br>font태그 n개 -> a태그 1개로 중복 제거 가능
-			<br>css가 유지보수가 용이 a
+			<br>css가 유지보수가 용이 and 가독성이 뛰어남
 			<h3>
 				2. CSS의 등장
 			</h3>
@@ -54,7 +54,6 @@
 			&lt;style> <br>
 				a { color: red; }	 <br>
 			&lt;/style> <br><br>
-nd 가독성이 뛰어남
 			
 			<h3>
 				3. CSS의 등장배경
@@ -72,13 +71,13 @@ nd 가독성이 뛰어남
 			<h4>
 				#CSS를 이용하여 색깔을 바꾸기
 			</h4>
-				+ a : 선택자 {selector} <br>
-				+ {} : 선언 {declaration}<br>
-				<img src="css.png" width= "70%"> <br>
+				+ a : 선택자 {selector} <br><br>
+				+ {} : 선언 {declaration}<br><br>
+				<img src="css.png" width= "70%"> <br><br>
 			<h4>
 				#CSS를 이용하여 밑줄을 추가 및 제거 하기
 			</h4>
-				+ {text-decoration : none or underline;} <br>
+				+ {text-decoration : none or underline;} <br><br>
 			<h3>
 				5. CSS 속성 스스로 알아내기
 			</h3>
@@ -86,8 +85,8 @@ nd 가독성이 뛰어남
 				#검색
 			</h4>
 			<h5>
-				검색할 방법만 알면 1분안에 찾을 수 있다. 이는 아는것과 다름 없다.<br>
-				+ CSS {찾고자하는 기능} property 검색 <br>
+				검색할 방법만 알면 1분안에 찾을 수 있다. 이는 아는것과 다름 없다.<br><br>
+				+ CSS {찾고자하는 기능} property 검색 <br><br>
 				ex) [CSS text align property ]
 			</h5>
 			<h4>
@@ -100,37 +99,76 @@ nd 가독성이 뛰어남
 			<h4>
 				#하고자 하는 것들
 			</h4>
-			0. 리스트에서, <br>
-			1. 기본 : 검정 <br>
-			2. 방문했던 것들 : 회색 <br>
-			3. 방문 중 : 빨강 <br>
+			0. 리스트에서, <br><br>
+			1. 기본 : 검정 <br><br>
+			2. 방문했던 것들 : 회색 <br><br>
+			3. 방문 중 : 빨강 <br><br>
 			<h4>
 				#기존에는 일일이 인라인을 했어야 했지만, CSS에서는 class와 id를 이용하여 편리하게 해결할 수 있다.
 			</h4>
 			<h5>
-				&lt; a class = "saw"> 1.html <br>
+				&lt; a class = "saw"> 1.html <br><br>
 				-> .saw{color : gray;}
 			</h5>
 			<h5>
-				&lt; a class = "saw active"> 2.html <br>
-				.active { color:gray;} <br>
+				&lt; a class = "saw active"> 2.html <br><br>
+				.active { color:gray;} <br><br>
 				active가 나중에 등장 -> 나중에 적용된다. -> 우선순위가 높다.
 				
 			</h5>
 			<h5>
 				&lt; a class = "saw" id = "active"> 2.html
 			</h5>
-				#active {color : gray;} <br>
+				#active {color : gray;} <br><br>
 				id > class >tag 순으로 우선순위가 높다 (특수한 것들이 높음.) 
+			<h3>
+				7. 박스모델
+			</h3>
 			<h4>
-				#박스 모델
+				h1,a 태그를 걸면 줄바꿈이 안된다. 이는 두 태그의 크기가 정해져 있기 때문이다. 그렇다면 두 태그의 크기를 어떻게 알 수 있을까?
 			</h4>
+			<h5>
+				#Property
+			</h5>
+			+ border-width: 테두리 두께 조정 <br><br>
+			+ border-color: 테두리 색깔 조정 <br><br>
+			+ border-style: 테두리 속성 조정 (단선 :solod, 점선 : dotted ) <br><br>
+			+ paddig: 컨텐츠-테두리 사이의 간격 조정 <br><br>
+			+ margin: 테두리 사이 간격 조정 <br><br>
+			+ display: 디스플레이 속성을 변경 (inline, block, none[안보임] <br><br>
+			<h4>
+				#CSS에서의 주석처리 : /* 주석처리된 내용*/
+			</h4>
+			<h4>
+				#디스플레이 Propoerty
+			</h4>
+			+ Block level element (tag) : 화면 전체를 쓰는 태그 ex) h1 <br><br>
+			+ Inline element (tag) : 자신의 부피만큼만 쓴느 태그 ex) a 
+			<h4>
+				#중복의 제거
+			</h4>
+			<h5>
+				두 Selector가 같은 효과가 적용되면 a,h1 {~} 로 처리 가능 <br> <br>
+				Declaration에서 간편히 border : 5px solid red;로 처리가능
+			</h5>
+			<h5>
+				CSS Box model 검색으로 여러 기능 알아보거나, 웹페이지 검사를 통해 알아볼 수 있다.
+			</h5>
 			<h3>
-				
+				8. 박스모델 써먹기
 			</h3>
-			<h3>
-				
-			</h3>
+			<h4>
+				#구현하고자하는 페이지를 위해서
+			</h4>
+			1. h1 seloector, width-bottom 을 적용 (아랫쪽만 테두리 형성) <br><br>
+			2. 테두리와 너무 붙어있어, margin 값을 제거 (검사를 통한 추론) <br><br>
+			3. padding 값을 줘서 간격을 만든다.<br><br>
+			4. ol{ordered list} selector, width-right를 추가 <br><br>
+			5. ol에 width를 줘서 간격 조정 <br><br>
+			6. 그래도 간격이 너무 많아  ol의 margin을 제거 <br><br>
+			7. 리스트들이 서로 붙어있어, padding을 줘서 거리두기를 시킨다. <br><br>
+			8. 가장 바깥쪽의 여백이 많아 body태그의 margin을 0으로 한다. <br><br>
+			
 			<h3>
 				
 			</h3>
