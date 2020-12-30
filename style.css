@@ -1,7 +1,7 @@
 a 
 {
-	color: black;
-	text-decoration : none;
+	color: blue;
+	text-decoration : underline;
 }
 h1 {
 	font-size:60px;
