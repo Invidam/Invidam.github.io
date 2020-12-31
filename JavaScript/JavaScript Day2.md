@@ -44,3 +44,9 @@
 
 ## 9. 제어할 태그 선택하기
 
++ 버튼 클릭시 어떠한 태그에 어떠한 기능을 적용할 지에 대한 문법을 알아야 한다.
+	+ onclick = "~" 에 들어갈 내용.
++ onclick = "(body태그를 대상으로)(특정 기능을 실행)"
+	+ body태그를 대상으로 : document.querySelector('body' or .class or # id) [body태그의 주소를 변수로 출력한다는 걸로 이해함.]
+	+ 특정 기능을 실행 : (body).style.backgroundColor = 'black';
+	+ .style.color = 'white';
