@@ -25,13 +25,27 @@
 	+ '+' : 객체와 객체 사이를 연결하거나 분리하는 기능을 함
 
 - - -
-``` c
-    int val = 10;
-	printf(%s,"Hello, World!");
-	if(val < 20)
-	{
-		val++;
-	}
-```
 
-## 15. 
+
+## 15. 배열문과 반복문의 활용
+
++ colsole, shift + enter : 엔터 안되고 추가 명령 가능
+
++ document.querySelectorAll('a') : 모든 a태그를 list화하여 리턴
+	+ while문 + colsole.log()로 확인 가능
+	+ 이를 이용하여 alist[i].style.color = 'colorA'; 로 모든 색상 변경 가능.
+		
+- - -
+
+
+## 16. 함수 예고
+
++ onclick = "text" : 안의 내용을 함수화 시킨다.
+	+ ``` html
+    <script>
+funtion fun(self){
+	text
+}
+
+	</script>
+```
