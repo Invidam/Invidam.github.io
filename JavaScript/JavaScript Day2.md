@@ -50,3 +50,32 @@
 	+ body태그를 대상으로 : document.querySelector('body' or .class or # id) [body태그의 주소를 변수로 출력한다는 걸로 이해함.]
 	+ 특정 기능을 실행 : (body).style.backgroundColor = 'black';
 	+ .style.color = 'white';
+
+
+## 9. 프로그램, 프로그래밍, 프로그래머
+
++ JavaScript  : 컴퓨터 언어 컴퓨터 프로그래밍 언어
++ HTML : 컴퓨터 언어 (프로그래밍 언어는 아님)
+
++ Program의 어원 : 음악회, 음악 연주 순서를 program이라고 함
+	+ HTML은 시간의 순서에 따라 작동하지 않아 프로그래밍 언어가 아님
+	+ JS는 사용자와 동작하기 위해 시간 순서에 따라 여러 가지가 동작하여 프로그래밍 언어임
+		+ 명령어를 시간순으로 배치하여 실행
+
++ 명령어를 시간순으로 실행하는 것 뿐만이 아닌, 더 커다란 것을 원하게 됨.
+
+## 10. 조건문 예고
+
++ 토글 : 스위치 on off
++ 문법은 건너뛰고 토글 기능 구현쪽으로 건너뛰기
+
+## 11. 비교 연산자와 Boolean 데이터 타입
++ === 가 == 이다.
+
+- - -
+## 12. 조건문 활용
+
++ if (document.querySelector('#night_day').value === night)
+	+ .value가 태그의 밸류를 리턴시킴.
+	+ if : 배경 검정 글자 흰색 + value = 'day'
+	+ else : 배경 흰색 글자 검정 + value = 'night'
