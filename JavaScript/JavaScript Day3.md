@@ -43,12 +43,12 @@
 + onclick = "text" : 안의 내용을 함수화 시킨다.
 	+ ``` html
     <script>
-funtion fun(self){
-	text
-}
+	funtion fun(self){
+		text
+	}
 
 	</script>
-```
+	```
 
 ## 17. 함수 활용
 + this는 실행된 태그의 위치를 가르킨다.
