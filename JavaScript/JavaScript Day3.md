@@ -49,3 +49,56 @@ funtion fun(self){
 
 	</script>
 ```
+
+## 17. 함수 활용
++ this는 실행된 태그의 위치를 가르킨다.
+	+ 함수화 시키면, 원하는 태그를 가르키지 않는다.
+	+ 매개변수로 this(원하는 태그의 주소)를 주고 self로 받는다.
+
+- - -
+
+
+ 
+## 18. 객체{Object} 
++  객체 선언
+``` html
+var coworkers = {
+	"programmer": "A",
+	"designer": "B"		
+}
+coworkers["data scientist"] = "C"; /*하면 배열의 형식으로 추가*/
+```
+
++ 객체 순환
+	+ key가 인덱스 역할 (차이점 : 인덱스는 ordered, key는 inordered)
+``` html
+for(var key in coworkers)
+{
+	document.write(key + ": " + coworkers[key] + "<br>");
+}
+```
++ 객체 자기자신을 가리키는 변수 : this
++ 객체에 소속된 함수 : Method
++ 객체에 소속된 변수 : Property
+
+- - -
+
+
+## 19. 객체의 활용
++ Body, Links 객체에 만들었던 함수들을 넣어놓는다. (body 배경,글자색 바꾸는 함수 / a태그 전부 선택후 색깔 바꾸는 함수)
+
+```
+var Links = 
+{
+	setColor:funtion(color)
+	{
+		var alist = document.querySelectorAll('a');
+		var i = 0;
+		while(i < alist.length)
+		{
+			alist[i].style.color = color;
+			i = i +1;
+		}
+	}
+}
+```
