@@ -4,41 +4,52 @@
 	<title>WEB1 - JavaScript</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href = "style.css">
+	<script>
+		function nightdayHandler(self)
+		{
+			var target = document.querySelector('body');
+			var alist = document.querySelectorAll('a');
+			var i =0;
+
+			if(self.value === 'night') {
+
+
+				target.style.backgroundColor = 'black';
+
+				target.style.color = 'white';
+				self.value = 'day';
+				i =0;
+				while( i < alist.length)
+				{
+					alist[i].style.color = 'powderblue';
+					i = i + 1;
+				}
+			}
+			else {
+				target.style.backgroundColor = 'white';
+				target.style.color = 'black';
+				self.value = 'night';
+				i =0;
+				while( i < alist.length)
+				{
+					alist[i].style.color = 'blue';
+					i = i + 1;
+				}
+			}
+			
+		}
+	
+	</script>
 </head>
 
 <body>
 	<h1> <a href="index.html">WEB	</a></h1>
 	
 	<input id = "night_day" type="button" value="night" onclick= "
-	var target = document.querySelector('body');
-	var alist = document.querySelectorAll('a');
-	var i =0;
-	
-	if(this.value === 'night') {
-	
-	
-		target.style.backgroundColor = 'black';
-		
-		target.style.color = 'white';
-		this.value = 'day';
-		i =0;
-		while( i < alist.length)
-		{
-			alist[i].style.color = 'powderblue';
-			i = i + 1;
-		}
-	}
-	else {
-		target.style.backgroundColor = 'white';
-		target.style.color = 'black';
-		this.value = 'night';
-		i =0;
-		while( i < alist.length)
-		{
-			alist[i].style.color = 'blue';
-			i = i + 1;
-		}
-	}
+	nightdayHandler(this);
+	">
+	<input id = "night_day" type="button" value="night" onclick= "
+	nightdayHandler(this);
 	">
 	<div id="grid">
 
