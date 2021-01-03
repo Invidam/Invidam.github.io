@@ -14,11 +14,12 @@ var Links = {
 var Body = {
 	setColor:function(color)
 	{
-		document.querySelector('body').style.color = color;
+		$('body').css('color',color);
+		//document.querySelector('body').style.color = color;
 	},
 	setbackgroundColor:function(color)
 	{
-		document.querySelector('body').style.backgroundColor = color;
+		$('body').css('backgroundcolor',color);
 	}
 }
 function nightdayHandler(self)
