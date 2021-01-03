@@ -6,7 +6,8 @@
 <script>
     function fnMove(idx){
         $("h3:eq(1)").css("color","red");
-        var offset = $("body, h3:eq(idx)").offset();
+        $("h3:eq(2)").css("color","green");
+        var offset = $("h3:eq(idx)").offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
 </script>
