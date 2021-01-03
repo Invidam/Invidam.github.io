@@ -1,4 +1,4 @@
-# WEB2 JavaScript
+# WEB2 JavaScript Day3
 
 - - - 
 
@@ -49,6 +49,10 @@
 
 	</script>
 	```
+	
+	
+	
+- - -
 
 ## 17. 함수 활용
 + this는 실행된 태그의 위치를 가르킨다.
