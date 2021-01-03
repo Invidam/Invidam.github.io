@@ -4,9 +4,9 @@
     h3 {margin-bottom:1000px;}
 </style>
 <script>
-	var tlist = querySelectorAll('h3');
+	var tlist = document.querySelectorAll('h3');
     function fnMove(idx){
-        var offset = $("h3" + idx - 1).offset();
+        var offset = $("h3" + idx).offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
 </script>
