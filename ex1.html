@@ -5,7 +5,7 @@
 </style>
 <script>
     function fnMove(idx){
-        $("body, h3:eq(idx)").css("color","red");
+        $("h3:eq(idx)").css("color","red");
         var offset = $("body, h3:eq(idx)").offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
