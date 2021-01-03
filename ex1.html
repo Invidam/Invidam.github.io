@@ -1,24 +1,28 @@
 <HTML>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style>
-    div {margin-bottom:1000px;}
+    h3 {margin-bottom:1000px;}
 </style>
 <script>
-    function fnMove(seq){
-        var offset = $("#div" + seq).offset();
-        $('html, body').animate({scrollTop : offset.top}, 400);
+	var tlist = getSelectionAll('h3');
+    function fnMove(idx){
+        var offset = $("h3" + idx).offset();
+        $('html, body').animate({scrollTop : offset.top}, 1000);
     }
 </script>
  <BODY>
     <button onclick="fnMove('1')">div1로 이동</button>
     <button onclick="fnMove('2')">div2로 이동</button>
     <button onclick="fnMove('3')">div3로 이동</button>
-    <div id="div4">div1</div>
-    <div id="div2">div2</div>
-    <div id="div3">div3</div>
+	 <h3>
+		 H1
+	 </h3>
+	 <h3>
+		 H2
+	 </h3>
+	 <h3>
+		 H3
+	 </h3>
  </BODY>
 </HTML>
  
-
-
-출처: https://cofs.tistory.com/191 [CofS]
