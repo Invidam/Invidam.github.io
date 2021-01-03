@@ -36,5 +36,4 @@ function nightdayHandler(self)
 		self.value = 'night';
 		Links.setColor('blue');
 	}
-
 }
