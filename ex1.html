@@ -4,13 +4,22 @@
     h3 {margin-bottom:1000px;}
 </style>
 <script>
-	var tlist = querySelecorAll('h3');
+	var tlist = querySelectorAll('h3');
     function fnMove(idx){
         var offset = $("h3" + idx - 1).offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
 </script>
  <BODY>
+	 <script>
+		var i = 0;
+		while(i < tlist.length)
+		{
+			i = i + 1;
+			document.write('<button onclick="fnMove('i-1')">'+i + '. '+tlist[i-1]+'</button>');
+		}
+	 
+	 </script>
     <button onclick="fnMove('1')">div1로 이동</button>
     <button onclick="fnMove('2')">div2로 이동</button>
     <button onclick="fnMove('3')">div3로 이동</button>
