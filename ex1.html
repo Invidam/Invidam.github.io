@@ -5,12 +5,13 @@
 </style>
 <script>
     function fnMove(idx){
+        $("BODY, h3:eq(idx)").css("color","red");
         var offset = $("BODY, h3:eq(idx)").offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
 </script>
  <BODY>
-	 <!-- <script>
+	 <script>
 		var i = 0;
 		while(i < tlist.length)
 		{
@@ -18,7 +19,7 @@
 			document.write('<button onclick="fnMove('i-1')">'+i + '. '+tlist[i-1]+'</button>');
 		}
 	 
-	 </script> -->
+	 </script>
     <button onclick="fnMove('1')">div1로 이동</button>
     <button onclick="fnMove('2')">div2로 이동</button>
     <button onclick="fnMove('3')">div3로 이동</button>
