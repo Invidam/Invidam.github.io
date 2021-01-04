@@ -65,14 +65,6 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
     <br><br>
     <div id = contents>
       <ul>
-   <script>
-		var plist = document.querySelectorAll('p');
-		var i = 0;
-		while(i < plist.length){
-			i = i + 1;
-			document.write('<li><a href= "https://invidam.github.io/#'+i+'">'+i+'</a></li>');
-		}
-  </script>
 		  <!-- <ul>
     <li><a href="#one">One</a></li>
     <li><a href="#two">Two</a></li>
@@ -89,6 +81,14 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
       <li>A</li>
       <li>B</li>
       <li>C</li>
+	   <script>
+			var plist = document.querySelectorAll('p');
+			var i = 0;
+			while(i < plist.length){
+				i = i + 1;
+				document.write('<li><a href= "https://invidam.github.io/#'+i+'">'+i+'</a></li>');
+			}
+	  </script>
       </ul>
     </div>
     <div id = article>
