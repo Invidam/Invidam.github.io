@@ -19,7 +19,7 @@ var Body = {
 	},
 	setbackgroundColor:function(color)
 	{
-		$('body').css('backgroundcolor',color);
+		$('body').css('background-color',color);
 	}
 }
 function nightdayHandler(self)
