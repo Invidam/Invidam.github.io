@@ -51,18 +51,6 @@
 			<li>JavaScript </li>
 		</ol>
     <br><br>
-      <ul id = "navigator">
-	   <script>
-			var lis;
-			var idx;
-
-			var i = 0;
-			while(i < idx){
-				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
-				i = i + 1;
-			}
-	  </script>
-      </ul>
     <div id = article>
     <ol id = "heading">
 	
@@ -76,6 +64,18 @@
 			lis = document.getElementById("heading").getElementsByTagName("li");
 			idx = lis.length;
 		</script>
+      <ul id = "navigator">
+	   <script>
+			var lis;
+			var idx;
+
+			var i = 0;
+			while(i < idx){
+				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
+				i = i + 1;
+			}
+	  </script>
+      </ul>
 	</ol>
     </div>
 		
