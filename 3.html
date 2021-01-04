@@ -44,17 +44,6 @@
 			<li><a href="2.html">CSS </a></li>
 			<li><a href="3.html">JavaScript </a></li>
 		</ol>
-		<div id = none>
-			<ol id = "heading">
-				<li id = "nav-1">Hi</li>
-				<li id = "nav-2">I</li>
-				<li id = "nav-3">am</li>
-				<li id = "nav-4">stydy</li>
-				<li id = "nav-5">java</li>
-				<li id = "nav-6">script</li>
-			</ol>
-		</div>
-		
 		<div id = article>
 				<ol id = "heading">
 
@@ -68,14 +57,12 @@
 		</div>			
 		<ul id = "navigator">
 		<script>
-			var llist = ["1","2","3","4","5","6"];
-			//var lis = document.querySelector(''[id^="nav"]'');
 			var lis = document.getElementById("heading").getElementsByTagName("li");
 			var idx = lis.length;
 
 			var i = 0;
 			while(i < idx){
-				document.write('<li><a href= "https://invidam.github.io/ex2#nav-'+llist[i]+'">'+llist[i]+'</a></li>');
+				document.write('<li><a href= "https://invidam.github.io/3.html#nav-'+llist[i]+'">'+llist[i]+'</a></li>');
 				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
 				i = i + 1;
 			}
