@@ -27,14 +27,14 @@ function nightdayHandler(self)
 	var target = document.querySelector('body');
 	if(self.value === 'night') {
 
-		Body.setColor('white');
 		Body.setbackgroundColor('black');
+		Body.setColor('white');
 		self.value = 'day'; 
 		Links.setColor('powderblue');
 	}
 	else {
-		target.style.backgroundColor = 'white';
-		target.style.color = 'black';
+		Body.setbackgroundColor('white');
+		Body.setColor('black');
 		self.value = 'night';
 		Links.setColor('blue');
 	}
