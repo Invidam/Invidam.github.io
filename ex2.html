@@ -27,6 +27,24 @@
 <body>
 	<h1>web</h1>
 	
+    <div id = contents>
+      <ul>
+	   <script>
+			var llist = ["1","2","3","4","5","6"];
+
+			var lis = document.getElementById("heading").getElementsByTagName("li");
+			var idx = lis.length;
+
+			var i = 0;
+			while(i < idx){
+				document.write('<li><a href= "https://invidam.github.io/ex2#nav-'+llist[i]+'">'+llist[i]+'</a></li>');
+				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
+				i = i + 1;
+			}
+	  </script>
+      </ul>
+    </div>
+	
 		<ol>
 			&lt; Contents &gt;
 			<li><a href= https://invidam.github.io/ex2.html#1>HTML</a></li>
@@ -44,24 +62,6 @@
 		<li id = "nav-5">java</li>
 		<li id = "nav-6">script</li>
 	</ol>
-    </div>
-    <div id = contents>
-      <ul>
-	   <script>
-			var llist = ["1","2","3","4","5","6"];
-
-			var lis = document.getElementById("heading").getElementsByTagName("li");
-			var idx = lis.length;
-
-//alert(lis[0].id);
-			var i = 0;
-			while(i < idx){
-				document.write('<li><a href= "https://invidam.github.io/ex2#nav-'+llist[i]+'">'+llist[i]+'</a></li>');
-				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
-				i = i + 1;
-			}
-	  </script>
-      </ul>
     </div>
 		
 </body>
