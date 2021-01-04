@@ -31,12 +31,11 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
 	  
 	  */
     p {
-      margin-bottom : 100px;
+      margin-bottom : 200px;
     }
   </style>
-  <script>
+  <!-- <script>
   var $s = $('#article');
-  $s.scrollTop($s.scrollTop() +(optionTop - selectTop));
   function scrollMove(i) {
   
     var optionTop = $("#contents")[i].offset().top;
@@ -51,7 +50,7 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
         var offset = $("h3:eq(idx-1)").offset();
         $('html, body').animate({scrollTop : offset.top}, 1000);
     }
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -59,7 +58,7 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
 	
 		<ol>
 			&lt; Contents &gt;
-			<li>HTML </li>
+			<li><a href= https://invidam.github.io/ex2.html#1>HTML</a></li>
 			<li>CSS </li>
 			<li>JavaScript </li>
 		</ol>
@@ -67,14 +66,27 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
     <div id = contents>
       <ul>
    <script>
-   		var plist = document.querySelectorAll('p');
-      var i = 0;
-      while(i < plist.length){
-     	 document.write('<li> <a href = "http://a.com/'+plist[i]+'">'+plist[i]+'</a></li>');
-        // document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
-        i = i + 1;
-      }
+		var plist = {"t1","t2","t3"};// document.querySelectorAll('p');
+		var i = 0;
+		while(i < plist.length){
+			document.write('<li> <a href = "http://a.com/'+plist[i]+'">'+plist[i]+'</a></li>');
+			// document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
+			i = i + 1;
+		}
   </script>
+		  <!-- <ul>
+    <li><a href="#one">One</a></li>
+    <li><a href="#two">Two</a></li>
+    <li><a href="#three">Three</a></li>
+</ul>
+
+<div class="wrap">
+    <a name="one">text 1</a>
+    <a name="two">text 2</a>
+    <a name="three" class="box">text 3</a>
+</div> -->
+		  <!-- write하는거랑 이동하는거 짜기. hash이용해서 하ㅡㄴ게 제일 편해보임
+		  a src와 해쉬 이용 -->
       <li>A</li>
       <li>B</li>
       <li>C</li>
@@ -82,19 +94,19 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
     </div>
     <div id = article>
     
-    <p #href = "1">
+    <p id = "1">
     Hi
     </p>
-    <p #href = "2">
+    <p #id = "2">
     Hi I
     </p>
-    <p #href = "3">
+    <p #id = "3">
     Hi I am
     </p>
-    <p #href = "4">
+    <p #id  = "4">
     Hi I am Hansu
     </p>
-    <p #href = "5">
+    <p #id  = "5">
     Hi I am hansu.
     </p>
     </div>
