@@ -53,14 +53,11 @@
     <br><br>
       <ul id = "navigator">
 	   <script>
-			var llist = ["1","2","3","4","5","6"];
-			//var lis = document.querySelector(''[id^="nav"]'');
 			var lis = document.getElementById("heading").getElementsByTagName("li");
 			var idx = lis.length;
 
 			var i = 0;
 			while(i < idx){
-				document.write('<li><a href= "https://invidam.github.io/ex2#nav-'+llist[i]+'">'+llist[i]+'</a></li>');
 				document.write('<li><a href= "https://invidam.github.io/ex2#'+lis[i].id+'">'+lis[i].id+'</a></li>');
 				i = i + 1;
 			}
@@ -75,6 +72,10 @@
 		<li id = "nav-4">stydy</li>
 		<li id = "nav-5">java</li>
 		<li id = "nav-6">script</li>
+		<script>
+			lis = document.getElementById("heading").getElementsByTagName("li");
+			idx = lis.length;
+		</script>
 	</ol>
     </div>
 		
