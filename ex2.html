@@ -18,39 +18,10 @@
   #article {
     border-top : 1px dotted silver;
   }
-	  /*
-	  $('select').scrollTop(30);
-And you can scroll to a particular element using this:
-
-var $s = $('select');
-
-var optionTop = $s.find('[value="3"]').offset().top;
-var selectTop = $s.offset().top;
-
-$s.scrollTop($s.scrollTop() + (optionTop - selectTop));
-	  
-	  */
     p {
       margin-bottom : 200px;
     }
-  </style>
-  <!-- <script>
-  var $s = $('#article');
-  function scrollMove(i) {
-  
-    var optionTop = $("#contents")[i].offset().top;
-    var selectTop = $s.offset.top;
-    
-    $s.scrollTop($s.scrollTop() +(optionTop - selectTop));
-  
-  }
-    function fnMove(idx){
-        $("h3:eq(1)").css("color","red");
-        $("h3:eq(2)").css("color","green");
-        var offset = $("h3:eq(idx-1)").offset();
-        $('html, body').animate({scrollTop : offset.top}, 1000);
-    }
-  </script> -->
+	</style>
 </head>
 
 <body>
@@ -65,32 +36,15 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
     <br><br>
     <div id = contents>
       <ul>
-		  <!-- <ul>
-    <li><a href="#one">One</a></li>
-    <li><a href="#two">Two</a></li>
-    <li><a href="#three">Three</a></li>
-</ul>
-
-<div class="wrap">
-    <a name="one">text 1</a>
-    <a name="two">text 2</a>
-    <a name="three" class="box">text 3</a>
-</div> -->
-		  <!-- write하는거랑 이동하는거 짜기. hash이용해서 하ㅡㄴ게 제일 편해보임
-		  a src와 해쉬 이용 -->
       <li>A</li>
       <li>B</li>
       <li>C</li>
 	   <script>
-			var idx = document.querySelectorAll('p').length;
-		   var llist = ["1","2","3","4","5"];
+			var llist = ["1","2","3","4","5"];
 			var i = 0;
-			document.write(i + "test");
 			while(i < llist.length){
 				i = i + 1;
-				document.write('<li><a href= "https://invidam.github.io/ex2/#'+i+'">'+i+'</a></li>');
-				document.write('<li><a href= "https://invidam.github.io/ex2/#'+llist[i]+'">'+llist[i]+'</a></li>');
-				document.write(i + "test");
+				document.write('<li><a href= "https://invidam.github.io/ex2#'+llist[i]+'">'+llist[i]+'</a></li>');
 			}
 	  </script>
       </ul>
