@@ -82,11 +82,11 @@ $s.scrollTop($s.scrollTop() + (optionTop - selectTop));
       <li>B</li>
       <li>C</li>
 	   <script>
-			var plist = document.querySelectorAll('p');
+			var idx = document.querySelectorAll('p').length;
 		   var llist = ["t1","t2","t3","t4","t5"];
 			var i = 0;
 			document.write(i + "test");
-			while(i < plist.length){
+			while(i < idx){
 				i = i + 1;
 				document.write('<li><a href= "https://invidam.github.io/ex2/#'+i+'">'+i+'</a></li>');
 				document.write('<li><a href= "https://invidam.github.io/ex2/#'+llist[i]+'">'+llist[i]+'</a></li>');
