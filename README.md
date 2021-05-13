@@ -1,7 +1,7 @@
 # Invidam.github.io
 Web site 공부 Repo.
-+ (1223 ~ 0103) 동안 공부함.
-+  HTML, CSS, JavaScript를 이용해 웹사이트를 제작함.
++ (1223 ~ 0103) 동안 공부하였습니다..
++  HTML, CSS, JavaScript를 이용해 웹사이트를 제작하였습니다..
 
 
 - - -
