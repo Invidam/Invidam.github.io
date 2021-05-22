@@ -51,11 +51,13 @@
 			<h3>
 				2. 기본 문법
 			</h3>
-			&lt; > , &lt; / >  = 태그 (앞뒤 구분 위해 '/'을 붙임) <br><br>
-			&lt;strong > , &lt; /strong >  = 강조 <br><br>
-			&lt;u > , &lt; /u >  = 밑줄) <br><br>
-			&lt;h1 > , &lt; /h1 >  = 헤딩 (강조하는 기능, 숫자가 클수록 글자 크기가 작아짐) <br><br>
-			태그 : 문법 내용 설명위해 필요한 것. <br><br>
+			+ <strong>&lt; > , &lt; / ></strong>  = 태그 (앞뒤 구분 위해 '/'을 붙임) <br><br>
+			+ <strong>&lt;strong > , &lt; /strong ></strong>  = <strong>강조</strong> <br><br>
+			+<strong> &lt;u > , &lt; /u ></strong>  =<u>밑줄</u> <br><br>
+			+ <strong>&lt;h1 > , &lt; /h1 ></strong>  =헤딩 (강조하는 기능, 숫자가 클수록 글자 크기가 작아짐) <br><br>
+			+ <strong> &lt;!--(내용) -- > </strong> = 주석 <br>
+			<!--<h1>태그는 글 가독성을 위해 넣지 않음.-->
+			+ 태그 : 문법 내용 설명위해 필요한 것. <br><br>
 
 
 			<h3>
@@ -73,22 +75,26 @@
 			</h3>
 			<h5>
 				사용량에 따라 웹페이지에서 많이 쓰이는 태그를 알려주는 사이트 : <br>
-				<a target="_blank" title="바로가기" href = "advancedwebranking.com/">advancedwebranking.com/</a> <br><br>
+				<a target="_blank" title="바로가기" href = "https://www.advancedwebranking.com/html/">advancedwebranking.com</a> <br><br>
 			</h5>
 			<h6>
-				&lt; head> : 100% <br>
-				&lt; h1> : 55.8% <br><br>
+				<strong>&lt; head></strong> : 100% <br>
+				<strong>&lt; h1></strong> : 55.8% <br><br>
 			</h6>
 
 			<h3>
 				6. 줄바꿈
 			</h3>
 			<h7>
-				&lt; br> : 줄바꿈 코드 (닫기 필요 X) : 72% <br>
-				&lt; p > , &lt; /p> : paragraph의 약자 (같은 줄바꿈 역할) <br>
-					장점: 의미론적으로 뛰어남 (어디부터 어디까지인지 표현이 가능)
-					81.5%
-				&lt; p styple="margin-top:40px;"> : 여백 위를 40px떨어트림 [css문법! 풍부히 재현가능] <br><br>
+				<strong>&lt; br></strong> : 줄바꿈 코드 (닫기 필요 X) : <strong>72%</strong> <br>
+				<p>
+					<strong>&lt; p > , &lt; /p></strong> : paragraph의 약자 
+					(같은 줄바꿈 역할) [장점: 의미론적으로 뛰어남 (어디부터 어디까지인지 표현이 가능)] 
+					<strong> 81.5%</strong> 
+				</p>
+				<p stype="margin-top:40px;"> <strong>&lt; p styple="margin-top:40px;"></strong>
+				: 여백 위를 40px떨어트림 [css문법! 풍부히 재현가능]
+				</p>
 
 			</h7>
 
@@ -115,9 +121,11 @@
 			<h3>
 				8. 최후의 문법 속성과 img
 			</h3>
-			&lt; img src ="주소" width = "size or rate(%로 표현)"> : 이미지 태그
+			<strong>&lt; img src ="주소" width = "size or rate(%로 표현)"></strong> : 이미지 태그
 				위에 것들을 속성(Attribute)라고 부른다. 순서는 상관 X
-				<img src="coding_img.jpg" width= "5%">
+			<br>	
+			<img src="coding_img.jpg" width= "20%">
+			(코딩 이미지)
 			<br><br>
 			<a href = "https://unsplash.com/" target = "_blank" title = "바로가기 ">https://unsplash.com/</a>: 저작권 X 퀄리티 높은 이미지 사이트
 
@@ -128,26 +136,26 @@
 			<h4>
 				부모와 자식 태그
 			</h4>
-			: &lt; Par > &lt; Chi >&lt; / Chi >&lt; /Par> 와 같은 형식 (무조건으로 이러한 관계임) <br>
-			&lt; li > , &lt; /li > : 목차(목록) 태그 [자식] <br>
-			+&lt; ul > &lt; /ul > : 리스트들의 경계를 구분{Unordered list}<br>
-			+&lt; ol > &lt; /ol > : + 1. 2. 3.등을 자동으로 붙임 {Ordered list}<br>
-			팁 : ctrl누르고 클릭하면 커서가 복제된다.<br>
+			: <strong>&lt; Par > &lt; Chi >&lt; / Chi >&lt;</strong> /Par> 와 같은 형식 (무조건으로 이러한 관계임) <br>
+			<strong>&lt; li > , &lt; /li ></strong> : 목차(목록) 태그 [자식] <br>
+			<strong>&lt; ul > &lt; /ul ></strong> : 리스트들의 경계를 구분{Unordered list} [부모]<br>
+			<strong>&lt; ol > &lt; /ol ></strong> : + 1. 2. 3.등을 자동으로 붙임 {Ordered list} [부모]<br>
+			<br><br>팁 : ctrl누르고 클릭하면 커서가 복제된다.<br>
 
 			<h3>
 				10. 문서구조와 슈퍼스타들
 			</h3>
-			&lt; title > , &lt; /title > : 페이지의 제목을 명시함 (검색 시 잘 뜨게 함)<br>
-			&lt; meta charset="utf-8"> , &lt; / > : 한글 출력을 위한 태그 (utf-8 : 한글 출력을 가능케하는 형식)<br>
-			&lt; body> , &lt; /body > : 본문을 묶는 태그<br>
-			&lt; head> , &lt; /head > : 머리말을 묶는 태그<br>
-			&lt; html> , &lt; /html > : 모두를 묶는 태그 <br>
-			&lt; !doctype html>  : html로 작성했음을 나타내는 관용적 표현 태그 <br>
+				<strong>&lt; title > , &lt; /title ></strong> : 페이지의 제목을 명시함 (검색 시 잘 뜨게 함)<br>
+				<strong>&lt; meta charset="utf-8"> , &lt; / ></strong> : 한글 출력을 위한 태그 (utf-8 : 한글 출력을 가능케하는 형식)<br>
+				<strong>&lt; body> , &lt; /body ></strong> : 본문을 묶는 태그<br>
+				<strong>&lt; head> , &lt; /head ></strong> : 머리말을 묶는 태그<br>
+				<strong>&lt; html> , &lt; /html ></strong> : 모두를 묶는 태그 <br>
+			<strong>&lt; !doctype html>  : html로 작성했음을 나타내는 관용적 표현 태그 <br>
 
 			<h3>
 				11. HTML 태그의 제왕
 			</h3>
-			&lt; a> , &lt; /a> : 링크를 위한 코드 [가장 중요함] {Anchor의 약자} <br>
+				<strong>&lt; a> , &lt; /a></strong> : 링크를 위한 코드 [가장 중요함] {Anchor의 약자} <br>
 				+ href="주소" : 주소 입력 (<strong>h</strong>ypertext <strong>ref</strong>erence) <br>
 				+ target: "_blank" : 새탭에 열기 <br>
 				+ title="설명" : 마우스 갖다대면 나오는 설명 <br>
@@ -157,7 +165,7 @@
 			</h3>
 				인터넷 vs 웹
 			<br>:인터넷 안에 웹,이메일 등의 서비스가 존재하는 것.
-			<br><a href="info.cern.ch", target="_blank", title="성지순례 하러 가기" >info.cern.ch</a> : 최초의 웹사이트
+			<br><a href="http://info.cern.ch", target="_blank", title="성지순례 하러 가기" >info.cern.ch</a> : 최초의 웹사이트
 
 			<h3>
 				13. 서버와 클라이언트
