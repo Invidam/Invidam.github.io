@@ -1,6 +1,6 @@
 a 
 {
-	color: black;
+	color: blue;
 	text-decoration : underline;
 }
 h1 {
@@ -22,11 +22,10 @@ h2 {
 	padding-left: 40px;
 
 }
-a:link { color : black }
-a:visited { color : gray }
-a:hover { color : navy } 
-a:active {color : blue  } 
-
+a:visited { color : black }
+a:current {color : red}
+a:active {color : teal  } 
+#curr {color : navy}
 body{
 	margin:0;
 }
