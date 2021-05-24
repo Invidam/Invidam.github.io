@@ -33,7 +33,8 @@
 			<h5>
 				방법 1. HTML에 새로운 태그(디자인 기능)을 추가시킴
 			</h5>
-				한계 1. HTML은 정보를 담아야 하는데, 디자인까지 담게되어 가치가 떨어짐. <br>
+				<h5> 한계	</h5> 
+			1. HTML은 정보를 담아야 하는데, 디자인까지 담게되어 가치가 떨어짐. <br>
 			2. 여러개의 디자인을 바꾸기에 번거로움
 			<h5>
 				새로운 언어(CSS)를 개발.
@@ -112,12 +113,12 @@
 			</h4>
 			<h5>
 				&lt; a class = "saw"> 1.html <br><br>
-				-> .saw{color : gray;}
+				-> .saw{color : gray;} : "."은 class를 이용할 때 사용
 			</h5>
 			<h5>
 				&lt; a class = "saw active"> 2.html <br><br>
 				.active { color:gray;} <br><br>
-				active가 나중에 등장 -> 나중에 적용된다. -> 우선순위가 높다.
+				active가 style에서 나중에 등장 -> 덧씌워 적용된다. -> 우선순위가 높다.
 				
 			</h5>
 			<h5>
@@ -125,6 +126,12 @@
 			</h5>
 				#active {color : gray;} <br><br>
 				id > class >tag 순으로 우선순위가 높다 (특수한 것들이 높음.) 
+			<h5>
+				a:link { color : black }: 방문하지 않은 링크 <br>
+				a:visited { color : gray }: 방문한 링크 <br>
+				a:hover { color : navy } : 마우스가 링크 위에 위치하고 있을 때 <br>
+				a:active {color : blue  } : 링크를 클릭할 때 <br>
+			</h5>
 			<h3>
 				7. 박스모델
 			</h3>

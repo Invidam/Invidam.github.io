@@ -1,6 +1,6 @@
 a 
 {
-	color: blue;
+	color: black;
 	text-decoration : underline;
 }
 h1 {
@@ -22,6 +22,11 @@ h2 {
 	padding-left: 40px;
 
 }
+a:link { color : black }
+a:visited { color : gray }
+a:hover { color : navy } 
+a:active {color : blue  } 
+
 body{
 	margin:0;
 }
