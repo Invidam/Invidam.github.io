@@ -207,7 +207,8 @@
 			</h5>
 			+ 본문 h2와 p를 div(article)로 묶고 이를 다시 리스트와 div(grid)로 묶는다. <br><br>
 			#grid {dislpay :grid; grid-template-columns : 150px 1fr;} <br><br>
-			+ 리스트의 여백이 너무 커 padding left를 조정한다. (검사를 통해 마우스를 갖다대고 키보드 상하키로 미리 조정해보기가 가능)
+			+ 리스트의 여백이 너무 커 padding left를 조정한다. (검사를 통해 마우스를 갖다대고 키보드 상하키로 미리 조정해보기가 가능) <br>
+			+ grid-template-columns: 현재 2개의 열(contents과 article)을 150px : 1fr의 비율로 grid화한다는 의미. 
 			<h5>
 				ol seloectotr은 다른 곳에서도 쓸 수 있으니 style에서 ol이 아닌 #grid ol로 바꾸어 준다 (id로 grid를 가진 ol)
 			</h5>
@@ -225,7 +226,7 @@
 				}
 			</h4>
 			+ media : media query를 의미 <br><br>
-			+ min(or max) : 최소 혹은 최대 화면이 n일 때 까지 이 안의 코드가 작동한다.
+			+ min(or max) : 최소( 혹은 최대 )화면이 n일 때 까지 이 안의 코드가 작동한다.
 			<h3>
 				12. 미디어 쿼리 써먹기
 			</h3>
@@ -239,21 +240,21 @@
 				#grid {display : block; } : grid -> block
 			</h6>
 			<h5>
-				세로 테두리를 없앤다.
+				contents의 세로(우측) 테두리를 없앤다.
 			</h5>
 			<h6>
 				ol {border-right:none;} 
 			</h6>
-				가로 테두리를 없앤다.
+				h1의 가로(하단) 테두리를 없앤다.
 			<h6>
-				h1 {border-right:none;} 
+				h1 {border-bottom:none;} 
 			</h6>
 			<h3>
 				13. CSS 코드의 재사용
 			</h3>
 			
 			<h4>
-				style 태그에 적힌 코드들을 style.css파일에 옮긴다. <br> &lt;link rel = "stylesheet href = "/style.css"> 라고 있던 자리에 적어준다.
+				style 태그에 적힌 코드들을 style.css파일에 옮긴다. <br> &lt;link rel = "stylesheet" href = "/style.css"> 라고 있던 자리에 적어준다.
 			</h4>
 			<h5>
 					+ 위 주소와 링크되어 웹브라우저는 위 주소를 다운받아서 링크로 연결한다. <br><br>

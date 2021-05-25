@@ -48,7 +48,7 @@ body{
 	#grid{
 		display: block;
 	}
-	#grid ol{
+	#contents, #button_light{
 		border-right: none;
 	}
 	h1{
