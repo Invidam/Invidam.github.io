@@ -9,10 +9,13 @@
 </head>
 
 <body>
-	<h1> <a href="index.html">WEB	</a></h1>	
-	<input id = "night_day" type="button" value="night" onclick= "
-		nightdayHandler(this);
-	">
+	<h1> <a href="index.html">WEB	</a></h1>
+	<p id = "button_light">
+		<input id = "night_day" type="button" value="night" onclick= "
+			nightdayHandler(this);
+		">	
+	</p>
+	
 	<div id="grid">
 
 		<ol id = "contents">
@@ -136,7 +139,7 @@
 				7. 박스모델
 			</h3>
 			<h4>
-				h1,a 태그를 걸면 줄바꿈이 안된다. 이는 두 태그의 크기가 정해져 있기 때문이다. 그렇다면 두 태그의 크기를 어떻게 알 수 있을까?
+				h1 태그를 걸면 페이지의 크기가 바뀌더라도 줄바꿈이 안된다. 이는  태그의 크기가 정해져 있기 때문이다. 그렇다면  태그의 크기를 어떻게 알 수 있을까?
 			</h4>
 			<h5>
 				#Property
@@ -154,7 +157,7 @@
 				#디스플레이 Propoerty
 			</h4>
 			+ Block level element (tag) : 화면 전체를 쓰는 태그 ex) h1 <br><br>
-			+ Inline element (tag) : 자신의 부피만큼만 쓴느 태그 ex) a 
+			+ Inline element (tag) : 자신의 부피만큼만 쓰는 태그 ex) a 
 			<h4>
 				#중복의 제거
 			</h4>

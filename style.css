@@ -14,13 +14,19 @@ h1 {
 h2 {
 	font-size : 50px;
 }
-#contents {
+#contents,#button_light {
 	border-right: 1px solid gray;
 	width:100px;
 	margin:0;
-	padding:20px;
+	padding:10px;
+	padding-top : 5px;
 	padding-left: 40px;
 
+}
+
+#button_light {
+	padding-top : 10px;
+	padding-bottom : 10px;
 }
 a:visited { color : black }
 a:current {color : red}
@@ -30,6 +36,7 @@ body{
 	margin:0;
 }
 #grid{
+	
 	display : grid;
 	grid-template-columns : 150px 1fr;
 }
