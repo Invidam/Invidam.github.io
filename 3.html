@@ -29,11 +29,11 @@
 
 <body>
 	<h1> <a href="index.html">WEB	</a></h1>
-	<p id = "button_light">
+	<div id = "button_light">
 		<input id = "night_day" type="button" value="night" onclick= "
 			nightdayHandler(this);
 		">	
-	</p>
+	</div>
 	<div id="grid">
 
 		<ol id= "contents">
@@ -46,6 +46,28 @@
 			<h2>
 				JavaScript
 			</h2>
+			<ul id = "navigator">
+			<script>
+				var len = 6;
+				var i = 0;
+				while(i < len){
+					document.write('<li><a href= "https://invidam.github.io/3.html#nav-'+(i+1)+'">'+ 'nav-'+ (i+1) +'</a></li>');
+					i = i + 1; // lis[i].id가 되어서는 안더ㅚㄴ다.
+				}
+				/*	
+				var lis = document.getElementById("heading").getElementsByTagName("li");
+				var idx = lis.length;
+
+				var i = 0;
+				while(i < idx){
+					document.write('<li><a href= "https://invidam.github.io/3.html#'+lis[i].id+'">'+lis[i].id+'</a></li>');
+					//https://invidam.github.io/3.html#nav-1">nav-1
+					i = i + 1; // lis[i].id가 되어서는 안더ㅚㄴ다.
+					
+				}
+				*/
+			</script>
+			</ul>
 				<ol id = "heading">
 
 				<li id = "nav-1">Hi</li>
@@ -56,18 +78,6 @@
 				<li id = "nav-6">script</li>
 			</ol>
 					
-			<ul id = "navigator">
-			<script>
-				var lis = document.getElementById("heading").getElementsByTagName("li");
-				var idx = lis.length;
-
-				var i = 0;
-				while(i < idx){
-					document.write('<li><a href= "https://invidam.github.io/3.html#'+lis[i].id+'">'+lis[i].id+'</a></li>');
-					i = i + 1; // lis[i].id가 되어서는 안더ㅚㄴ다.
-				}
-			</script>
-			</ul>
 		</div>	
 
 	</div>
