@@ -6,10 +6,13 @@ labels: Feature
 assignees: ''
 ---
 
-```[tasklist]
-## Task List
+## Description
+<!-- 설명 -->
+
+## Progress
+<!-- 각각의 API 업무 -->
+
 - [ ] Task1
-```
 
 ## Remark
-<!-- 특이사항을 작성해주세요. -->
+<!-- 특이사항 -->
