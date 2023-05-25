@@ -2,7 +2,7 @@
 name: Feature
 about: A feature with a list of APIs
 title: ''
-labels: enhancement 
+labels: "enhancement" 
 assignees: ''
 ---
 
