@@ -9,7 +9,7 @@ assignees: ''
 ## Description
 <!-- 설명 -->
 
-## Progress
+## Task List
 <!-- 각각의 API 업무 -->
 
 - [ ] Task1
