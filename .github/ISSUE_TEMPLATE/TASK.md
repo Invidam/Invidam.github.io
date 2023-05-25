@@ -2,7 +2,7 @@
 name: Task
 about: A Task For API
 title: ''
-labels: task 
+labels: "task"
 assignees: ''
 ---
 
