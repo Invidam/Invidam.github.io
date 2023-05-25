@@ -2,7 +2,7 @@
 name: Bug Report
 about: A feature with a list of APIs
 title: ''
-labels: "Bug"
+labels: "bug"
 assignees: ''
 ---
 
