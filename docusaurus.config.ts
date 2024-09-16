@@ -3,16 +3,17 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  scripts: [
-    {
-      src: '/ts/fix-location.ts',
-      async: false,
-      defer: false,
-    },
-  ],
+  // scripts: [
+  //   {
+  //     src: '/ts/fix-location.ts',
+  //     async: false,
+  //     defer: false,
+  //   },
+  // ],
   title: 'fait-accompli',
   tagline: 'Personal Blog',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: 'https://vidam.io',
