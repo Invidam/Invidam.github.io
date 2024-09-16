@@ -13,7 +13,7 @@ const config: Config = {
   title: 'fait-accompli',
   tagline: 'Personal Blog',
   favicon: 'img/favicon.ico',
-  trailingSlash: false,
+  trailingSlash: true,
 
   // Set the production url of your site here
   url: 'https://vidam.io',
