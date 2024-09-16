@@ -13,22 +13,6 @@ export default function DocItemFooterWrapper(props: Props): JSX.Element {
 
     return (
         <>
-
-            <script src="https://giscus.app/client.js"
-                    data-repo="Invidam/Invidam.github.io"
-                    data-repo-id="MDEwOlJlcG9zaXRvcnkzMjI2MjI3MzE="
-                    data-category="General"
-                    data-category-id="DIC_kwDOEzrVC84CigR6"
-                    data-mapping="url"
-                    data-strict="0"
-                    data-reactions-enabled="1"
-                    data-emit-metadata="0"
-                    data-input-position="bottom"
-                    data-theme="preferred_color_scheme"
-                    data-lang="ko"
-                    crossOrigin="anonymous"
-                    async>
-            </script>
             <h1>test123</h1>
             <DocItemFooter {...props} />
             {comments && <Comments/>}
