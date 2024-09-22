@@ -11,7 +11,6 @@ export default function Comments(): JSX.Element {
                 id="comments"
                 repo="Invidam/Invidam.github.io"
                 repoId="MDEwOlJlcG9zaXRvcnkzMjI2MjI3MzE="
-                category="Announcements"
                 categoryId="DIC_kwDOEzrVC84CigR6"
                 mapping="url"
                 strict="0"
