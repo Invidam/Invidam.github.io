@@ -7,7 +7,15 @@ yangshun:
   socials:
     x: yangshunz
     github: yangshun
-
+invidam:
+  name: Park Hansu
+  title: Data Engineer
+  url: https://github.com/Invidam
+  image_url: https://github.com/Invidam.png
+  socials:
+    github: Invidam
+    linkedin: hansupark
+    x: Invidam
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer

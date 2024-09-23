@@ -10,7 +10,7 @@ const config: Config = {
   //     defer: false,
   //   },
   // ],
-  title: 'fait-accompli',
+  title: '기술 블로그',
   tagline: 'Personal Blog',
   favicon: 'img/favicon.ico',
   trailingSlash: true,
@@ -43,6 +43,7 @@ const config: Config = {
       {
         docs: false,
         blog: {
+          blogTitle: 'News',
           routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
@@ -117,7 +118,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/',
             },
             {
               label: 'GitHub',
