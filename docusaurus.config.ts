@@ -67,7 +67,15 @@ const config: Config = {
   ],
 
   themeConfig: {
-    metadata: [],
+    metadata: [
+      { "property": "og:description", },
+      { "property": "og:title", "content": "." },
+      { "property": "og:locale", "content": "kr" },
+      { "property": "og:image" },
+      { "property": "og:url" }
+    ],
+
+    headTags: [],
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
