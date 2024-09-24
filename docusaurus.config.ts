@@ -72,7 +72,7 @@ const config: Config = {
       { "property": "og:title", "content": "." },
       { "property": "og:locale", "content": "kr" },
       { "property": "og:image" },
-      { "property": "og:url" }
+      { "property": "og:url" },
     ],
 
     headTags: [],
@@ -134,7 +134,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['powershell', 'bash'],
     },
-  } satisfies Preset.ThemeConfig,
+  },
 };
 
 export default config;
