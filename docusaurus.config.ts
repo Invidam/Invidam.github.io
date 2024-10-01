@@ -43,7 +43,10 @@ const config: Config = {
       {
         docs: false,
         blog: {
-          blogTitle: 'News',
+          blogTitle: 'Docusaurus blog!',
+          blogDescription: 'A Docusaurus powered blog!',
+
+          postsPerPage: 'ALL',
           routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
@@ -74,6 +77,39 @@ const config: Config = {
       { "property": "og:image" },
       { "property": "og:url" },
     ],
+
+    algolia: {
+      // The application ID provided by Algolia
+      appId: '27RVKDBUDE',
+
+      // Public API key: it is safe to commit it
+      apiKey: '176697c5915b10f80f902eac789689ad',
+
+      indexName: 'vidam',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      // externalUrlRegex: 'external\\.com|domain\\.com',
+
+      // // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+      // replaceSearchResultPathname: {
+      //   from: '/docs/', // or as RegExp: /\/docs\//
+      //   to: '/',
+      // },
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: 'search',
+
+      // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+      insights: false,
+
+      //... other Algolia params
+    },
 
     headTags: [],
     // Replace with your project's social card
