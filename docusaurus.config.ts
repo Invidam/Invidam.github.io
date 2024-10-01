@@ -47,8 +47,18 @@ const config: Config = {
           routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
+            feedOptions: {
+              type: 'all',
+              // copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
+              createFeedItems: async (params) => {
+                const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+                return defaultCreateFeedItems({
+                  // keep only the 10 most recent blog posts in the feed
+                  blogPosts: blogPosts.filter((item, index) => index < 10),
+                  ...rest,
+                });
+              },
+            },
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
