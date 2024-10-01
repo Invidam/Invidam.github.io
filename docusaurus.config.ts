@@ -77,13 +77,8 @@ const config: Config = {
 
     headTags: [],
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'fait-accompli',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {to: '/', label: 'Blog', position: 'left'},
         {
