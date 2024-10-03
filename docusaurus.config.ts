@@ -99,38 +99,29 @@ const config: Config = {
         footer: {
             style: 'dark',
             links: [
+                {},
+                {},
                 {
-                    title: 'Community',
+                    title: 'Profile',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'Github',
+                            href: 'https://github.com/Invidam',
                         },
                         {
-                            label: 'Discord',
+                            label: 'LinkedIn',
                             href: 'https://discordapp.com/invite/docusaurus',
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
+                            href: 'https://twitter.com/vidam_in',
                         },
                     ],
                 },
-                {
-                    title: 'More',
-                    items: [
-                        {
-                            label: 'Blog',
-                            to: '/',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
-                        },
-                    ],
-                },
+                {},
+                {},
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            //copyright: `Copyright © ${new Date().getFullYear()} by ParkHansu.`,
         },
         prism: {
             theme: prismThemes.github,

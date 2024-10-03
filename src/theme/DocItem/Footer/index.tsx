@@ -13,7 +13,6 @@ export default function DocItemFooterWrapper(props: Props): JSX.Element {
 
     return (
         <>
-            <h1>test123</h1>
             <DocItemFooter {...props} />
             {comments && <Comments/>}
         </>
